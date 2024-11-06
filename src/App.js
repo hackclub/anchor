@@ -59,7 +59,7 @@ export default function App() {
             <div className="border-4 border-[#B0E298] border-dashed p-6">
               <p className="text-2xl">Getting started:</p>
               <p className="mt-4">For this YSWS, we're using <a href="https://figma.com" className="link" target="_blank" rel="noopenner noreferrer">Figma</a>! It's used to design websites and vector art of all kind. <span className="opacity-50">it's also the main (and only) vector art app that i use {":')"}</span></p>
-              <p className="mt-2">You can download Figma here: <a href="https://www.figma.com/downloads/" className="link" target="_blank" rel="noopenner noreferrer">https://www.figma.com/downloads/</a></p>
+              <p className="mt-2">You can download Figma here: <a href="https://www.figma.com/downloads/" className="link break-all" target="_blank" rel="noopenner noreferrer">https://www.figma.com/downloads/</a></p>
               <p className="mt-2"></p>
               <p className="mt-2">If you want to use the vtuber logo font, you'll also need to install that from <a href="https://www.freefontdownload.org/en/fot-yuruka-std.font" className="link" target="_blank" rel="noopenner noreferrer">here</a> or <a href="https://archive.org/details/Fontworks" className="link">here</a>.</p>
               <p className="mt-2">In order to actually use that font in Figma, you'll need to install the <a href="https://www.figma.com/downloads/" className="link" target="_blank" rel="noopenner noreferrer">Figma Font Installer</a>. You won't be able to use custom fonts on the web version.</p>
