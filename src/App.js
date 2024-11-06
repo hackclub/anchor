@@ -23,7 +23,7 @@ export default function App() {
       </div>
 
       <div className="mt-32 p-10">
-        <div className="flex flex-col justify-center items-center bg-blue-400 py-10 rounded-xl">
+        <div className="flex flex-col justify-center items-center bg-gradient-to-b from-blue-400 to-blue-500 py-10 rounded-xl text-[#011627]">
 
           <div className="flex flex-wrap gap-4 justify-center items-center mt-16 ml-2">
             <div className="flex flex-wrap gap-4">
