@@ -62,7 +62,7 @@ export default function App() {
               <p className="mt-2"></p>
               <p className="mt-2">If you want to use the vtuber logo font, you'll also need to install that from <a href="https://www.freefontdownload.org/en/fot-yuruka-std.font" className="link" target="_blank" rel="noopenner noreferrer">here</a>.</p>
               <p className="mt-2">In order to actually use that font in Figma, you'll need to install the <a href="https://www.figma.com/downloads/" className="link" target="_blank" rel="noopenner noreferrer">Figma Font Installer</a>. You won't be able to use custom fonts on the web version.</p>
-              <p className="mt-2">After you're done setting up, create a new design file in Figma and you're ready to go!</p>
+              <p className="mt-2">After you're done downloading everything you need, create a new design file in Figma and you're ready to go!</p>
             </div>
             <div className="border-4 border-[#B0E298] border-dashed p-6">
               <p className="text-2xl">Does it need to be for a High Seas project?</p>
