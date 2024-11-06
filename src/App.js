@@ -67,7 +67,7 @@ export default function App() {
             <div className="border-4 border-[#B0E298] border-dashed p-6">
               <p className="text-2xl">Does it need to be for a High Seas project?</p>
               <p className="mt-4">For now, yes - but that might change in the future!</p>
-              <p className="mt-2">In order to submit, you'll to make a High Seas account <a href="highseas.hackclub.com" className="link" target="_blank" rel="noopenner noreferrer">here</a>.</p>
+              <p className="mt-2">In order to submit, make a High Seas account <a href="highseas.hackclub.com" className="link" target="_blank" rel="noopenner noreferrer">here</a>.</p>
               <p className="mt-2">After your project has recieved payout in High Seas, you'll need to submit just one more form to confirm shipping. More on that later!</p>
               <p className="mt-8">Any more questions? Ask in <a href="https://hackclub.slack.com/archives/C07V5401VMY" className="link" target="_blank" rel="noopenner noreferrer">#anchor</a> on the slack!</p>
 
