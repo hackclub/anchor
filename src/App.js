@@ -1,50 +1,27 @@
 import './App.css';
-import { useState } from 'react';
+import React from 'react'
 
 
 export default function App() {
-
-  const [position, setPosition] = useState({ x: 0, y: 0 });
-
-  const handleDragStart = (e) => {
-    const style = window.getComputedStyle(e.target, null);
-    const str = (parseInt(style.getPropertyValue("left"), 10) - e.clientX) + ',' + (parseInt(style.getPropertyValue("top"), 10) - e.clientY);
-    e.dataTransfer.setData("text/plain", str);
-  };
-
-  const handleDragOver = (e) => {
-    e.preventDefault();
-    return false;
-  };
-
-  const handleDrop = (e) => {
-    const offset = e.dataTransfer.getData("text/plain").split(',');
-    const dm = document.getElementById('draggable-image');
-    dm.style.left = (e.clientX + parseInt(offset[0], 10)) + 'px';
-    dm.style.top = (e.clientY + parseInt(offset[1], 10)) + 'px';
-    e.preventDefault();
-    return false;
-  };
-
+  
   return (
-    <div onDragOver={handleDragOver} onDrop={handleDrop}>
+    <div>
 
       <div className="absolute top-0 w-56">
         <img src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="hack club flag" className="top-0" href="https://hackclub.com" target="_blank" rel="noopenner noreferrer"/>
       </div>
 
-      <img
-        id="draggable-image"
-        src="/logos/arcade.svg"
-        className="logo absolute -rotate-6"
-        draggable="true"
-        onDragStart={handleDragStart}
-        style={{ position: 'absolute', left: position.x, top: position.y }}
-      />
+      <img src="/logos/arcade.svg" className="logo absolute -rotate-6 left-16 top-44 w-56 hidden md:block"/>
+      <img src="/logos/boba.svg" className="logo absolute rotate-12 right-32 top-36 w-56 hidden md:block"/>
+      <img src="/logos/sleep.svg" className="logo absolute left-80 top-16 w-56 hidden md:block"/>
+      <img src="/logos/ligma.svg" className="logo absolute -rotate-[70deg] left-24 top-96 w-56 hidden md:block"/>
+      <img src="/logos/acon.svg" className="logo absolute rotate-[50deg] right-16 top-96 w-56 hidden md:block"/>
+
+      
 
       <div className="mt-32">
         <div className="flex flex-col justify-center text-center items-center">
-          <img src="/logo.svg" alt="anchor logo" className="md:h-72"/>
+          <img src="/logo.svg" alt="anchor logo" className="md:h-56 mb-8 mt-8"/>
           <div className="-rotate-2">
             <p className="text-2xl mx-4">you ship a <span className="bg-[#B0E298] px-1 pb-1">vtuber style logo</span> for your project, we ship you <span className="bg-pink-300 px-1 pb-1">custom stickers</span></p>
           </div>
@@ -56,8 +33,8 @@ export default function App() {
 
       </div>
 
-      <div className="mt-32 p-10">
-        <div className="flex flex-col justify-center items-center bg-gradient-to-b from-blue-400 to-blue-500 py-10 shadow-xl rounded-xl text-[#011627]">
+      <div className="mt-16 md:mt-32 p-10">
+        <div className="flex flex-col justify-center items-center bg-gradient-to-b from-blue-400 to-blue-500 md:py-10 shadow-xl rounded-xl text-[#011627]">
 
           <div className="flex flex-wrap gap-4 justify-center items-center mt-16 ml-2">
             <div className="flex flex-wrap gap-4">
