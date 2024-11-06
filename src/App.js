@@ -11,8 +11,10 @@ export default function App() {
       <div className="mt-32">
         <div className="flex flex-col justify-center text-center items-center">
           <img src="/logo.svg" alt="anchor logo" className="md:h-72"/>
-          <p className="text-2xl mx-4">you ship a vtuber style logo for your project, we ship you custom stickers</p>
-          <div className="flex flex-row gap-2 mt-4">
+          <div className="-rotate-2">
+            <p className="text-2xl mx-4">you ship a <span className="bg-[#B0E298] px-1 pb-1">vtuber style logo</span> for your project, we ship you <span className="bg-pink-300 px-1 pb-1">custom stickers</span></p>
+          </div>
+          <div className="flex flex-row gap-2 mt-6">
             <button href="#" className="bg-slate-300 px-6 py-2 rounded-lg text-xl">guide coming soon!</button>
           </div>
 
@@ -41,7 +43,7 @@ export default function App() {
           </div>
 
 
-          <div className="mt-12 md:mt-24 grid grid-cols-1 md:grid-cols-2 gap-8 md:mx-24 mx-8 mb-16">
+          <div className="mt-12 md:mt-20 grid grid-cols-1 md:grid-cols-2 gap-8 md:mx-24 mx-8 mb-16">
             <div className="border-4 border-[#B0E298] border-dashed p-6">
               <p className="text-2xl">Getting started:</p>
               <p className="mt-4">For this YSWS, we're using <a href="figma.com" className="link" target="_blank" rel="noopenner noreferrer">Figma</a>! It's used to design websites and vector art of all kind. <span className="opacity-50">it's also the main (and only) vector art app that i use {":')"}</span></p>
