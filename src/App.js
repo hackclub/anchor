@@ -34,7 +34,7 @@ export default function App() {
       </div>
 
       <div className="mt-16 md:mt-32 p-10">
-        <div className="flex flex-col justify-center items-center bg-gradient-to-b from-blue-400 to-blue-500 md:py-10 shadow-xl rounded-xl text-[#011627]">
+        <div className="flex flex-col justify-center items-center bg-gradient-to-b from-blue-400 to-[#2FBCFD] md:py-10 shadow-xl rounded-xl text-[#011627]">
 
           <div className="flex flex-wrap gap-4 justify-center items-center mt-16 ml-2">
             <div className="flex flex-wrap gap-4">
