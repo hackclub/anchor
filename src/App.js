@@ -25,8 +25,9 @@ export default function App() {
           <div className="-rotate-2">
             <p className="text-2xl mx-4">you ship a <span className="bg-[#B0E298] px-1 pb-1">vtuber style logo</span> for your project, we ship you <span className="bg-pink-300 px-1 pb-1">custom stickers</span></p>
           </div>
-          <div className="flex flex-row gap-2 mt-6">
-            <p className="bg-blue-300 px-6 py-2 rounded-lg text-xl">workshop friday (nov 10th) 2pm est!</p>
+          <div className="flex flex-row gap-2 mt-8">
+            <p className="bg-blue-300 px-6 py-2 rounded-lg text-xl">workshop call happening friday (nov 10th) 2pm est!</p>
+            <p className="bg-slate-300 px-6 py-2 rounded-lg text-xl">submissions opening soon</p>
           </div>
 
         </div>
@@ -78,7 +79,7 @@ export default function App() {
       </div>
 
 
-      <div className="flex flex-col justify-center items-center text-center mt-10 m-2">
+      <div className="flex flex-col justify-center items-center text-center mt-10 m-2 mb-4">
         <p>made with {":3"} by <a href="https://github.com/acornitum" target="_blank" rel="noopenner noreferrer" className="text-blue-600">acon</a></p>
 
       </div>
