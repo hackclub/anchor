@@ -29,3 +29,11 @@ code {
 .link:hover {
   color: darkred; /* Change this to your desired hover color */
 }
+
+.logo {
+  opacity: 50%;
+}
+
+.logo:hover {
+  opacity: 100%;
+}

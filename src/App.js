@@ -1,12 +1,46 @@
 import './App.css';
+import { useState } from 'react';
+
 
 export default function App() {
+
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+
+  const handleDragStart = (e) => {
+    const style = window.getComputedStyle(e.target, null);
+    const str = (parseInt(style.getPropertyValue("left"), 10) - e.clientX) + ',' + (parseInt(style.getPropertyValue("top"), 10) - e.clientY);
+    e.dataTransfer.setData("text/plain", str);
+  };
+
+  const handleDragOver = (e) => {
+    e.preventDefault();
+    return false;
+  };
+
+  const handleDrop = (e) => {
+    const offset = e.dataTransfer.getData("text/plain").split(',');
+    const dm = document.getElementById('draggable-image');
+    dm.style.left = (e.clientX + parseInt(offset[0], 10)) + 'px';
+    dm.style.top = (e.clientY + parseInt(offset[1], 10)) + 'px';
+    e.preventDefault();
+    return false;
+  };
+
   return (
-    <div>
+    <div onDragOver={handleDragOver} onDrop={handleDrop}>
 
       <div className="absolute top-0 w-56">
         <img src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="hack club flag" className="top-0" href="https://hackclub.com" target="_blank" rel="noopenner noreferrer"/>
       </div>
+
+      <img
+        id="draggable-image"
+        src="/logos/arcade.svg"
+        className="logo absolute -rotate-6"
+        draggable="true"
+        onDragStart={handleDragStart}
+        style={{ position: 'absolute', left: position.x, top: position.y }}
+      />
 
       <div className="mt-32">
         <div className="flex flex-col justify-center text-center items-center">
@@ -23,7 +57,7 @@ export default function App() {
       </div>
 
       <div className="mt-32 p-10">
-        <div className="flex flex-col justify-center items-center bg-gradient-to-b from-blue-400 to-blue-500 py-10 rounded-xl text-[#011627]">
+        <div className="flex flex-col justify-center items-center bg-gradient-to-b from-blue-400 to-blue-500 py-10 shadow-xl rounded-xl text-[#011627]">
 
           <div className="flex flex-wrap gap-4 justify-center items-center mt-16 ml-2">
             <div className="flex flex-wrap gap-4">
