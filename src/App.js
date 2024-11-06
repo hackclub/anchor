@@ -42,7 +42,7 @@ export default function App() {
 
 
           <div className="mt-12 md:mt-24 grid grid-cols-1 md:grid-cols-2 gap-8 md:mx-24 mx-8 mb-16">
-            <div className="border-4 border-white border-dashed p-6">
+            <div className="border-4 border-[#B0E298] border-dashed p-6">
               <p className="text-2xl">Getting started:</p>
               <p className="mt-4">For this YSWS, we're using <a href="figma.com" className="link" target="_blank" rel="noopenner noreferrer">Figma</a>! It's used to design websites and vector art of all kind. <span className="opacity-50">it's also the main (and only) vector art app that i use {":')"}</span></p>
               <p className="mt-2">You can download Figma here: <a href="https://www.figma.com/downloads/" className="link" target="_blank" rel="noopenner noreferrer">https://www.figma.com/downloads/</a></p>
@@ -51,7 +51,7 @@ export default function App() {
               <p className="mt-2">In order to actually use that font in Figma, you'll need to install the <a href="https://www.figma.com/downloads/" className="link" target="_blank" rel="noopenner noreferrer">Figma Font Installer</a>. You won't be able to use custom fonts on the web version.</p>
               <p className="mt-2">After you're done setting up, create a new design file in Figma and you're ready to go!</p>
             </div>
-            <div className="border-4 border-white border-dashed p-6">
+            <div className="border-4 border-[#B0E298] border-dashed p-6">
               <p className="text-2xl">Does it need to be for a High Seas project?</p>
               <p className="mt-4">For now, yes - but that might change in the future!</p>
               <p className="mt-2">In order to submit, you'll to make a High Seas account <a href="highseas.hackclub.com" className="link" target="_blank" rel="noopenner noreferrer">here</a>.</p>
