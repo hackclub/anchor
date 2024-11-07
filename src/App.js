@@ -26,7 +26,7 @@ export default function App() {
             <p className="text-2xl mx-4">you ship a <span className="bg-[#B0E298] px-1 pb-1">vtuber style logo</span> for your project, we ship you <span className="bg-pink-300 px-1 pb-1">custom stickers</span></p>
           </div>
           <div className="flex flex-row gap-2 mt-8">
-            <p className="bg-blue-300 px-6 py-2 rounded-lg text-xl">workshop call happening friday (nov 10th) 2pm est!</p>
+            <p className="bg-blue-300 px-6 py-2 rounded-lg text-xl">workshop call happening friday (nov 8th) 2pm est!</p>
             <p className="bg-slate-300 px-6 py-2 rounded-lg text-xl">submissions opening soon</p>
           </div>
 
