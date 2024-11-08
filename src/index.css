@@ -37,3 +37,15 @@ code {
 .logo:hover {
   opacity: 100%;
 }
+
+.submit:hover {
+  background-color: lightskyblue;
+}
+
+.pop {
+  transition: transform 0.1s ease-in-out;
+}
+
+.pop:hover {
+  transform: scale(1.05);
+}

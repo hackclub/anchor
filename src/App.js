@@ -27,7 +27,7 @@ export default function App() {
           </div>
           <div className="flex flex-row gap-2 mt-8">
             <p className="bg-blue-300 px-6 py-2 rounded-lg text-xl">workshop call happening friday (nov 8th) 2pm est!</p>
-            <p className="bg-slate-300 px-6 py-2 rounded-lg text-xl">submissions opening soon</p>
+            <a href="https://forms.hackclub.com/t/rvyw8wbChSus" className="bg-[#B0E298] px-6 py-2 rounded-lg text-xl submit pop" target="_blank" rel="noopenner noreferrer">submit here!</a>
           </div>
 
         </div>
@@ -69,8 +69,12 @@ export default function App() {
               <p className="text-2xl">Does it need to be for a High Seas project?</p>
               <p className="mt-4">For now, yes - but that might change in the future!</p>
               <p className="mt-2">In order to submit, make a High Seas account <a href="https://highseas.hackclub.com" className="link" target="_blank" rel="noopenner noreferrer">here</a>. When you submit the project you made the logo for, set the cover image as the art!</p>
-              <p className="mt-2">After your project has recieved payout in High Seas, you'll need to submit just one more form to confirm shipping. More on that later!</p>
+              <p className="mt-2">After your project has recieved payout in High Seas, you'll need to submit just one more form (the one below) to confirm shipping.</p>
+              <div className="mt-8">
+                <a href="https://forms.hackclub.com/t/rvyw8wbChSus" className="px-6 py-2 bg-blue-300 rounded-md submit" target="_blank" rel="noopenner noreferrer">Submit your design here!</a>   
+              </div>
               <p className="mt-8">Any more questions? Ask in <a href="https://hackclub.slack.com/archives/C07PZMBUNDS" className="link" target="_blank" rel="noopenner noreferrer">#high-seas</a> on the slack!</p>
+              <p className="text-xs">Also ping @acon when you ask because things get lost at sea!</p>
 
             </div>
           </div>
