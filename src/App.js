@@ -74,7 +74,7 @@ export default function App() {
                 <a href="https://forms.hackclub.com/t/rvyw8wbChSus" className="px-6 py-2 bg-blue-300 rounded-md submit" target="_blank" rel="noopenner noreferrer">Submit your design here!</a>   
               </div>
               <p className="mt-8">Any more questions? Ask in <a href="https://hackclub.slack.com/archives/C07PZMBUNDS" className="link" target="_blank" rel="noopenner noreferrer">#high-seas</a> on the slack!</p>
-              <p className="text-xs">Also ping @acon when you ask because things get lost at sea!</p>
+              <p className="text-xs opacity-50">ping @acon when you ask because things easily get lost at sea!</p>
 
             </div>
           </div>
