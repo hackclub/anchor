@@ -49,3 +49,13 @@ code {
 .pop:hover {
   transform: scale(1.05);
 }
+
+h6 {
+  padding-bottom: 1rem;
+}
+
+h2 {
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

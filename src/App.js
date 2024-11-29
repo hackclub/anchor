@@ -82,9 +82,52 @@ export default function App() {
         </div>
       </div>
 
+      <div className="mx-44 xl:mx-96 mt-12">
+        <h1 className="font-bold text-3xl mb-4">How do I make a vtuber logo?</h1>
+
+        <h6>There's no single method to making them - but in this guide, I'll go over how I do it!</h6>
+        <h6>In this tutorial, we'll go over the basics:</h6>
+        <ol className="mb-4 ml-4">
+          <li>1. text layout</li>
+          <li>2. masking in color</li>
+          <li>3. icons</li>
+          <li>4. outline</li>
+        </ol>
+
+        <h2>1 - text layout</h2>
+        <h6>First, in Figma, create a frame (shortcut F). Think of this as a picture frame that your logo is contained within! Inside that frame, create a text box (shortcut T), and type in whatever you want your logo to say. Choose Yuruka for the font if you want to use the classic anime logo font. I use font size 96!</h6>
+        <img src="/pic1.png"/>
+        <h6>Next, we're going to separate the text into individual vector letters. Right click, then click on <i>Outline stroke</i>!</h6>
+        <img src="/pic2.png"/>
+        <h6>Now, if you double click into any of the letters, you can rotate and move it around individually. Do that for all the letters - rotate and move them all slightly!</h6>
+        <img src="/pic3.png"/>
+        <h6>After you're satisfied with how the letters line up, right click, then click on <i>Flatten</i>. This makes the entire word a singular vector instead of being divided up by letters.</h6>
+        <img src="/pic4.png"/>
+
+        <h2>2 - masking in color</h2>
+        <h6>First, fill in both the frame and text with whatever color you want them to be. Change the colour in the <i>Fill</i> section to do so.</h6>
+        <img src="/pic5.png"/>
+        <h6>Next, copy paste the text so you have two of the same! Right click on the top text layer, then click <i>Use as mask</i>. This will make it so anything we add on top will be bound only to where the mask is! We'll be using this to add more color to only the text.</h6>
+        <img src="/pic6.png"/>
+        <h6>What I personally like doing for multiple colours within text is using the pen tool to draw random shapes. Click on the pen tool in the bottom bar (shortcut P) to start - I like drawing in this scribbly shape that zigzags in the word.</h6>
+        <img src="/pic7.png"/>
+        <h6>Then, add a fill to the shape you just created by clicking on the "+" symbol! Make sure the shape is closed off in order for the fill to work. Also, get rid of the stroke by clicking on the "-" symbol.</h6>
+        <img src="/pic8.png"/>
+        <h6>Round off the shape by dragging right on the <i>Corner radius</i> box by the right. Then, change the fill color!</h6>
+        <img src="/pic9.png"/>
+        <h6>What I personally like doing is setting the opacity to 25%, then copy pasting it three times, then shifting the pasted layers a little downwards. That creates a nice solid color gradient effect. However, I encourage y'all to be creative with this - make non-wave shapes, add actual smooth gradients to these, do more with colours within your text!</h6>
+        <img src="/pic10.png"/>
+        
+        <h2>3 - icons</h2>
+        <h6>For icons, we'll be using Figma's built in icons!</h6>
+        <h6>WORK IN PROGRESS - REST OF GUIDE WILL BE FINISHED TONIGHT</h6>
+
+      </div>
+
 
       <div className="flex flex-col justify-center items-center text-center mt-10 m-2 mb-4">
         <p>made with {":3"} by <a href="https://github.com/acornitum" target="_blank" rel="noopenner noreferrer" className="text-blue-600">acon</a></p>
+        <p>check out #hackapet, another cool YSWS, on the Hack Club Slack!</p>
 
       </div>
 
