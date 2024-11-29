@@ -82,7 +82,7 @@ export default function App() {
         </div>
       </div>
 
-      <div className="mx-44 xl:mx-96 mt-12">
+      <div className="mx-5 md:mx-24 lg:mx-44 2xl:mx-96 mt-12">
         <h1 className="font-bold text-3xl mb-4">How do I make a vtuber logo?</h1>
 
         <h6>There's no single method to making them - but in this guide, I'll go over how I do it!</h6>
