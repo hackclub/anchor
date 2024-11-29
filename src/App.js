@@ -95,7 +95,7 @@ export default function App() {
         </ol>
 
         <h2>1 - text layout</h2>
-        <h6>First, in Figma, create a frame (shortcut F). Think of this as a picture frame that your logo is contained within! Inside that frame, create a text box (shortcut T), and type in whatever you want your logo to say. Choose Yuruka for the font if you want to use the classic anime logo font. I use font size 96!</h6>
+        <h6>First, in Figma, create a <i>Frame</i> (shortcut F). Think of this as a picture frame that your logo is contained within! Inside that frame, create a <i>Textbox</i> (shortcut T), and type in whatever you want your logo to say. Choose Yuruka for the font if you want to use the classic anime logo font. I use font size 96!</h6>
         <img src="/pic1.png"/>
         <h6>Next, we're going to separate the text into individual vector letters. Right click, then click on <i>Outline stroke</i>!</h6>
         <img src="/pic2.png"/>
@@ -120,7 +120,21 @@ export default function App() {
         
         <h2>3 - icons</h2>
         <h6>For icons, we'll be using Figma's built in icons!</h6>
-        <h6>WORK IN PROGRESS - REST OF GUIDE WILL BE FINISHED TONIGHT</h6>
+        <h6>Go to <i>Assets</i> on the left, then click on <i>Simple Design System</i>. If <i>Simple Design Systems</i> doesn't show up, you'll need to add the library via the button below.</h6>
+        <img src="/pic11.png"/>
+        <h6>Click on Icons - this is where the entire list of icons are!</h6>
+        <img src="/pic12.png"/>
+        <h6>Choose whatever icons you want and insert them in.</h6>
+        <img src="/pic13.png"/>
+        <h6>Change their colour by highlighting all of them, then click on <i>Selection colors</i>. Within the colors menu popup, go to <i>Custom</i>, then pick whatever color you want!</h6>
+        <img src="/pic14.png"/>
+        <h6>Next, we'll need to scale the icons down. Click on <i>Scale</i> (shortcut K), then drag the icons to the size you want!</h6>
+        <img src="/pic15.png"/>
+        <h6>Finally, drag the icons into the frame and lay them out however you want! I've also changed the colors of the bottom ones here.</h6>
+        <img src="/pic16.png"/>
+
+        <h2>4 - outline (work in progress!)</h2>
+
 
       </div>
 
