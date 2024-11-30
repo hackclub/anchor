@@ -93,6 +93,7 @@ export default function App() {
           <li>3. icons</li>
           <li>4. outline</li>
         </ol>
+        <h6 className="opacity-60 text-sm"><i>By the way, I'm making this logo for Hackapet, a new YSWS I'm running! You should total join #hackapet on the Slack :D</i></h6>
 
         <h2>1 - text layout</h2>
         <h6>First, in Figma, create a <i>Frame</i> (shortcut F). Think of this as a picture frame that your logo is contained within! Inside that frame, create a <i>Textbox</i> (shortcut T), and type in whatever you want your logo to say. Choose Yuruka for the font if you want to use the classic anime logo font. I use font size 96!</h6>
