@@ -132,8 +132,25 @@ export default function App() {
         <img src="/pic15.png"/>
         <h6>Finally, drag the icons into the frame and lay them out however you want! I've also changed the colors of the bottom ones here.</h6>
         <img src="/pic16.png"/>
+        <h6>Last thing we're doing before outlining is to group everything together!</h6>
+        <img src="/pic17.png"/>
 
-        <h2>4 - outline (work in progress!)</h2>
+        <h2>4 - outline</h2>
+        <h6>There are multiple ways to make the outline - I'm going to go over two methods.</h6>
+        <h6>The first way is to copy paste the entire group, delete the mask layers, then flatten the bottom most group. Then, Add a stroke to the newly created vector, thicken it, and in <i>Stroke settings</i> set <i>Join</i> to <i>Round</i>.</h6>
+        <h6>The second method is technically easier but more tedious:</h6>
+        <h6>With the pen tool, roughly outline the entire logo. Note it doesn't need to be perfect - later on, when we make the stroke wider and round it off, minor imperfections will be unseen.</h6>
+        <img src="/pic18.png"/>
+        <h6>Move the outline below the grouped layer. Add a fill. Thicken to around 30. Set rounding to around 50.</h6>
+        <img src="/pic19.png"/>
+        <h6>Set both the stroke and fill color to be the same as the frame color. Then, remove the frame fill.</h6>
+        <img src="/pic20.png"/>
+        <h6>To create the red outline, copy paste the background outline, then set the lower layer to have stroke color #FF0000. Make the stroke 1px thicker than what the other outline has - for me, that's 31, since the previous one was set to 30.</h6>
+        <img src="/pic21.png"/>
+        <h6>That's it! To export the frame, select the frame (you may need to move the logo/frame to be centered, and so there's minimal space between the edge and the logo), click on <i>Export</i> in the bottom right corner. Remember you need both a version with and without the red outline! Export it as an svg if possible!</h6>
+        <img src="/pic22.png"/>
+        <h6>Welp, that's it for this guide! Ask in #anchor in the Hack Club Slack if you have any questions.</h6>
+        <h6>This logo was made for #hackapet, a new YSWS I'm running! Join the Slack channel #hackapet :D you ship a virtual pet game (or anything else on a screen), i'll ship you a custom tamagotchi clone to play it on!</h6>
 
 
       </div>
