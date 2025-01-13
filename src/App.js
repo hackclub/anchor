@@ -45,7 +45,7 @@ export default function App() {
             <img src="/arrows.svg" alt="arrows" className="w-16 mr-6 hidden md:block"/>
             <div className="flex flex-wrap gap-4">
               <p className="text-6xl text-pink-200">2.</p>
-              <p className="max-w-64 md:max-w-56 text-lg">ship your project out to with your art</p>
+              <p className="max-w-64 md:max-w-52 text-lg">ship your project out to with your art</p>
             </div>
             <img src="/arrows.svg" alt="arrows" className="w-16 mr-6 hidden md:block"/>
             <div className="flex flex-wrap gap-4">
