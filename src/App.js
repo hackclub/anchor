@@ -40,12 +40,12 @@ export default function App() {
           <div className="flex flex-wrap gap-4 justify-center items-center mt-16 ml-2">
             <div className="flex flex-wrap gap-4">
               <p className="text-6xl text-pink-200">1.</p>
-              <p className="max-w-64 md:max-w-[17rem] text-lg">design a vtuber style logo in <a href="https://figma.com" className="link" target="_blank" rel="noopenner noreferrer">Figma</a> for your <a href="https://highseas.hackclub.com" className="link" target="_blank" rel="noopenner noreferrer">High Seas</a> project</p>
+              <p className="max-w-64 md:max-w-[17rem] text-lg">design a vtuber style logo in <a href="https://figma.com" className="link" target="_blank" rel="noopenner noreferrer">Figma</a> for your project</p>
             </div>
             <img src="/arrows.svg" alt="arrows" className="w-16 mr-6 hidden md:block"/>
             <div className="flex flex-wrap gap-4">
               <p className="text-6xl text-pink-200">2.</p>
-              <p className="max-w-64 md:max-w-56 text-lg">ship your project out to <a href="https://highseas.hackclub.com" className="link" target="_blank" rel="noopenner noreferrer">High Seas</a> with your art</p>
+              <p className="max-w-64 md:max-w-56 text-lg">ship your project out to with your art</p>
             </div>
             <img src="/arrows.svg" alt="arrows" className="w-16 mr-6 hidden md:block"/>
             <div className="flex flex-wrap gap-4">
@@ -62,18 +62,17 @@ export default function App() {
               <p className="mt-2">You can download Figma here: <a href="https://www.figma.com/downloads/" className="link break-all" target="_blank" rel="noopenner noreferrer">https://www.figma.com/downloads/</a></p>
               <p className="mt-2"></p>
               <p className="mt-2">If you want to use the vtuber logo font, you'll also need to install that from <a href="https://www.freefontdownload.org/en/fot-yuruka-std.font" className="link" target="_blank" rel="noopenner noreferrer">here</a> or <a href="https://archive.org/details/Fontworks" className="link">here</a>.</p>
-              <p className="mt-2">In order to actually use that font in Figma, you'll need to install the <a href="https://www.figma.com/downloads/" className="link" target="_blank" rel="noopenner noreferrer">Figma Font Installer</a>. You won't be able to use custom fonts on the web version.</p>
+              <p className="mt-2">If you're using the web version of Figma, you'll also need to install the <a href="https://www.figma.com/downloads/" className="link" target="_blank" rel="noopenner noreferrer">Figma Font Installer</a>.</p>
               <p className="mt-2">After you're done downloading everything you need, create a new design file in Figma and you're ready to go!</p>
             </div>
             <div className="border-4 border-[#B0E298] border-dashed p-6">
               <p className="text-2xl">Does it need to be for a High Seas project?</p>
-              <p className="mt-4">For now, yes - but that might change in the future!</p>
-              <p className="mt-2">In order to submit, make a High Seas account <a href="https://highseas.hackclub.com" className="link" target="_blank" rel="noopenner noreferrer">here</a>. When you submit the project you made the logo for, set the cover image as the art!</p>
-              <p className="mt-2">After your project has recieved payout in High Seas, you'll need to submit just one more form (the one below) to confirm shipping.</p>
+              <p className="mt-4">Nope! It could be for High Seas, any launched YSWS, or your local Hack Club!</p>
+              <p className="mt-2">After you're done your logo, you'll need to submit just one more form (the one below) to confirm shipping.</p>
               <div className="mt-8">
                 <a href="https://forms.hackclub.com/t/rvyw8wbChSus" className="px-6 py-2 bg-blue-300 rounded-md submit" target="_blank" rel="noopenner noreferrer">Submit your design here!</a>   
               </div>
-              <p className="mt-8">Any more questions? Ask in <a href="https://hackclub.slack.com/archives/C07PZMBUNDS" className="link" target="_blank" rel="noopenner noreferrer">#high-seas</a> on the slack!</p>
+              <p className="mt-8">Any more questions? Ask in <a href="https://hackclub.slack.com/archives/C07V5401VMY" className="link" target="_blank" rel="noopenner noreferrer">#anchor</a> on the slack!</p>
               <p className="text-xs opacity-50">ping @acon when you ask because things easily get lost at sea!</p>
 
             </div>
@@ -93,7 +92,7 @@ export default function App() {
           <li>3. icons</li>
           <li>4. outline</li>
         </ol>
-        <h6 className="opacity-60 text-sm"><i>By the way, I'm making this logo for Hackapet, a new YSWS I'm running! You should total join #hackapet on the Slack :D</i></h6>
+        <h6 className="opacity-60 text-sm"><i>By the way, I'm making this logo for <a href="https://hackapet.hackclub.dev" className="link" target="_blank" rel="noopenner noreferrer">Hackapet</a>, a new YSWS I'm running! You should totally join #hackapet on the Slack :D</i></h6>
 
         <h2>1 - text layout</h2>
         <h6>First, in Figma, create a <i>Frame</i> (shortcut F). Think of this as a picture frame that your logo is contained within! Inside that frame, create a <i>Textbox</i> (shortcut T), and type in whatever you want your logo to say. Choose Yuruka for the font if you want to use the classic anime logo font. I use font size 96!</h6>
@@ -158,8 +157,8 @@ export default function App() {
 
 
       <div className="flex flex-col justify-center items-center text-center mt-10 m-2 mb-4">
-        <p>made with {":3"} by <a href="https://github.com/acornitum" target="_blank" rel="noopenner noreferrer" className="text-blue-600">acon</a></p>
-        <p>check out #hackapet, another cool YSWS, on the Hack Club Slack!</p>
+        <p>made with {":3"} by <a href="https://github.com/acornitum" target="_blank" rel="noopenner noreferrer" className="text-blue-600">acon</a><span className="opacity-50"> - follow me on github!</span></p>
+        <p>check out <a href="https://hackapet.hackclub.dev" className="link" target="_blank" rel="noopenner noreferrer">Hackapet</a> - a YSWS where you get a hackable tamagotchi clone!</p>
 
       </div>
 
